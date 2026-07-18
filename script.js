@@ -104,7 +104,6 @@ async function carregarProgramas(){
 
             <br>
 
-
             `;
 
 
@@ -117,7 +116,6 @@ async function carregarProgramas(){
 
 
     }
-
 
     catch(error){
 
@@ -132,6 +130,7 @@ async function carregarProgramas(){
 
 
 }
+
 
 
 
@@ -162,6 +161,8 @@ function selecionarPrograma(nome){
 
 
 }
+
+
 
 
 
@@ -205,7 +206,6 @@ echo ===============================
             bat += `
 echo Instalando Google Chrome...
 winget install Google.Chrome --silent
-
 `;
 
         }
@@ -217,7 +217,6 @@ winget install Google.Chrome --silent
             bat += `
 echo Instalando 7-Zip...
 winget install 7zip.7zip --silent
-
 `;
 
         }
@@ -229,7 +228,6 @@ winget install 7zip.7zip --silent
             bat += `
 echo Instalando VLC Player...
 winget install VideoLAN.VLC --silent
-
 `;
 
         }
@@ -241,7 +239,6 @@ winget install VideoLAN.VLC --silent
             bat += `
 echo Instalando Java...
 winget install Oracle.JavaRuntimeEnvironment --silent
-
 `;
 
         }
@@ -253,7 +250,6 @@ winget install Oracle.JavaRuntimeEnvironment --silent
             bat += `
 echo Instalando Visual C++...
 winget install Microsoft.VCRedist.2015+.x64 --silent
-
 `;
 
         }
@@ -270,6 +266,7 @@ echo.
 echo INSTALACAO FINALIZADA
 
 pause
+
 `;
 
 
@@ -300,18 +297,16 @@ pause
 
 
 
+
 // ================================
 // VOLTAR PARA WINDOWS
 // ================================
 
 function voltarWindows(){
 
-
     document.getElementById("telaArquitetura").style.display = "none";
 
-
     document.getElementById("telaWindows").style.display = "block";
-
 
 }
 
@@ -326,11 +321,8 @@ function voltarWindows(){
 
 function voltarArquitetura(){
 
-
     document.getElementById("resultado").style.display = "none";
 
-
     document.getElementById("telaArquitetura").style.display = "block";
-
 
 }
