@@ -2,17 +2,13 @@ let windowsEscolhido = "";
 let arquiteturaEscolhida = "";
 
 
-// ===============================
-// ESCOLHER WINDOWS
-// ===============================
+// Escolha do Windows
 
 function selecionarWindows(windows) {
 
     windowsEscolhido = windows;
 
-
     document.getElementById("telaWindows").style.display = "none";
-
 
     document.getElementById("telaArquitetura").style.display = "block";
 
@@ -20,19 +16,13 @@ function selecionarWindows(windows) {
 
 
 
-
-// ===============================
-// ESCOLHER ARQUITETURA
-// ===============================
+// Escolha da arquitetura
 
 function selecionarArquitetura(tipo) {
 
-
     arquiteturaEscolhida = tipo;
 
-
     document.getElementById("telaArquitetura").style.display = "none";
-
 
     carregarProgramas();
 
@@ -40,12 +30,7 @@ function selecionarArquitetura(tipo) {
 
 
 
-
-
-// ===============================
-// CARREGAR BANCO DE PROGRAMAS
-// ===============================
-
+// Carregar programas do banco JSON
 
 async function carregarProgramas() {
 
@@ -53,22 +38,10 @@ async function carregarProgramas() {
     try {
 
 
-        const resposta = await fetch(
-            "/PROGRAMAS-APOS-FORMATA-AO/database/apps.json"
-        );
-
-
-
-        if (!resposta.ok) {
-
-            throw new Error("Arquivo apps.json não encontrado");
-
-        }
-
+        const resposta = await fetch("./database/apps.json");
 
 
         const programas = await resposta.json();
-
 
 
         mostrarProgramas(programas);
@@ -78,23 +51,21 @@ async function carregarProgramas() {
     } catch (erro) {
 
 
-        console.log("ERRO:", erro);
-
+        console.log(erro);
 
 
         document.getElementById("resultado").style.display = "block";
 
 
+        document.getElementById("config").innerHTML =
 
-        document.getElementById("config").innerHTML = `
-
+        `
         <h3>Erro ao carregar banco de programas</h3>
 
-        <p>
-        Verifique o arquivo:
-        </p>
+        Verifique:
+        <br><br>
 
-        <b>database/apps.json</b>
+        database/apps.json
 
         `;
 
@@ -107,19 +78,12 @@ async function carregarProgramas() {
 
 
 
-
-
-// ===============================
-// MOSTRAR PROGRAMAS NA TELA
-// ===============================
-
+// Mostrar programas
 
 function mostrarProgramas(programas) {
 
 
-
     document.getElementById("resultado").style.display = "block";
-
 
 
     let lista = "";
@@ -127,7 +91,6 @@ function mostrarProgramas(programas) {
 
 
     programas.forEach(programa => {
-
 
 
         lista += `
@@ -138,10 +101,11 @@ function mostrarProgramas(programas) {
 
         <br>
 
-        <small>${programa.categoria}</small>
+        ${programa.categoria}
 
         </div>
 
+        <br>
 
         `;
 
@@ -150,34 +114,29 @@ function mostrarProgramas(programas) {
 
 
 
+    document.getElementById("config").innerHTML =
 
 
-    document.getElementById("config").innerHTML = `
+    `
 
-
-    <p>
     Windows:
     <b>${windowsEscolhido}</b>
-    </p>
 
+    <br><br>
 
-    <p>
     Arquitetura:
     <b>${arquiteturaEscolhida}</b>
-    </p>
 
 
     <hr>
 
 
-    <h3>Programas disponíveis:</h3>
+    <h3>Programas:</h3>
 
 
     ${lista}
 
-
     `;
-
 
 
 }
@@ -185,25 +144,19 @@ function mostrarProgramas(programas) {
 
 
 
-
-
-// ===============================
-// GERAR PACOTE
-// ===============================
-
+// Botão gerar pacote
 
 function gerarPacote() {
 
 
-    alert(
+alert(
 
-    "Pacote criado!\n\n" +
+"Pacote criado!\n\n"+
+windowsEscolhido+
+"\n"+
+arquiteturaEscolhida
 
-    "Sistema: " + windowsEscolhido +
-
-    "\nArquitetura: " + arquiteturaEscolhida
-
-    );
+);
 
 
 }
