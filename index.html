@@ -33,10 +33,15 @@ Tudo que seu computador precisa depois de uma formatação.
 
 
 
+
+<!-- ESCOLHA WINDOWS -->
+
 <div id="telaWindows">
 
 
-<h2>Qual Windows você instalou?</h2>
+<h2>
+Qual Windows você instalou?
+</h2>
 
 
 <button onclick="selecionarWindows('Windows 10')">
@@ -55,15 +60,15 @@ Windows 11
 
 
 
+
+<!-- ESCOLHA ARQUITETURA -->
+
 <div id="telaArquitetura" style="display:none;">
-  <br>
-
-<button onclick="voltarWindows()" class="voltar">
-← Voltar
-</button>
 
 
-<h2>Qual arquitetura?</h2>
+<h2>
+Qual arquitetura?
+</h2>
 
 
 <button onclick="selecionarArquitetura('32 Bits')">
@@ -76,6 +81,16 @@ Windows 11
 </button>
 
 
+
+<br>
+
+
+<button onclick="voltarWindows()" class="voltar">
+← Voltar
+</button>
+
+
+
 </div>
 
 
@@ -83,12 +98,16 @@ Windows 11
 
 
 
+
+<!-- PROGRAMAS -->
+
 <div id="resultado" style="display:none;">
 
 
 <h2>
 Escolha os programas
 </h2>
+
 
 
 <div id="config"></div>
@@ -99,6 +118,13 @@ Escolha os programas
 
 
 
+
+<button onclick="voltarArquitetura()" class="voltar">
+← Voltar
+</button>
+
+
+
 <button onclick="gerarPacote()">
 
 CRIAR PACOTE DE INSTALAÇÃO
@@ -106,7 +132,10 @@ CRIAR PACOTE DE INSTALAÇÃO
 </button>
 
 
+
 </div>
+
+
 
 
 
