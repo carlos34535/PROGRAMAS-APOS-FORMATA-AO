@@ -1,102 +1,66 @@
 let windowsEscolhido = "";
 let arquiteturaEscolhida = "";
-let programasDisponiveis = [];
 
-
-// Escolhe Windows
 
 function selecionarWindows(windows){
 
     windowsEscolhido = windows;
 
+    document.getElementById("inicio").style.display = "none";
 
-    document.getElementById("inicio")
-    .classList.add("hidden");
-
-
-    document.getElementById("arquitetura")
-    .classList.remove("hidden");
+    document.getElementById("arquitetura").style.display = "block";
 
 }
 
 
-
-// Escolhe 32 ou 64 bits
 
 function selecionarArquitetura(tipo){
 
-
     arquiteturaEscolhida = tipo;
 
+    document.getElementById("arquitetura").style.display = "none";
 
     carregarProgramas();
 
-
 }
 
 
-
-// Busca o banco de programas
 
 async function carregarProgramas(){
 
+    const resposta = await fetch("./database/apps.json");
 
-    const resposta = await fetch("database/apps.json");
-
-
-    programasDisponiveis = await resposta.json();
-
-
-    mostrarPacote();
-
-
-}
-
-
-
-// Mostra programas encontrados
-
-function mostrarPacote(){
-
-
-    document.getElementById("arquitetura")
-    .classList.add("hidden");
-
-
-    document.getElementById("resultado")
-    .classList.remove("hidden");
-
+    const programas = await resposta.json();
 
 
     let lista = "";
 
 
-
-    programasDisponiveis.forEach(programa => {
-
+    programas.forEach(programa => {
 
         lista += `
         
-        <p>
+        <div class="card">
         ✅ ${programa.nome}
         <br>
         <small>${programa.categoria}</small>
-        </p>
+        </div>
 
         `;
-
 
     });
 
 
 
-    document.getElementById("config")
-    .innerHTML = `
+    document.getElementById("resultado").style.display="block";
 
-    Sistema:
+
+    document.getElementById("config").innerHTML = `
+
+    Windows:
     <b>${windowsEscolhido}</b>
 
-    <br><br>
+    <br>
 
     Arquitetura:
     <b>${arquiteturaEscolhida}</b>
@@ -108,27 +72,12 @@ function mostrarPacote(){
     `;
 
 
-
 }
 
 
 
-// Botão gerar pacote
-
 function gerarPacote(){
 
-
-alert(
-
-"Pacote criado!\n\n"+
-windowsEscolhido+
-"\n"+
-arquiteturaEscolhida+
-"\n\n"+
-programasDisponiveis.length+
-" programas encontrados."
-
-);
-
+alert("Pacote criado!");
 
 }
