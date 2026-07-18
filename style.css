@@ -1,163 +1,171 @@
-let windowsEscolhido = "";
-let arquiteturaEscolhida = "";
+*{
 
+box-sizing:border-box;
 
-// Escolher Windows
-function selecionarWindows(windows) {
-
-    windowsEscolhido = windows;
-
-    document.getElementById("inicio").style.display = "none";
-
-    document.getElementById("arquitetura").classList.remove("hidden");
+font-family:Arial, Helvetica, sans-serif;
 
 }
 
 
 
-// Escolher arquitetura
-function selecionarArquitetura(tipo) {
-
-    arquiteturaEscolhida = tipo;
-
-    carregarProgramas();
-
-}
+body{
 
 
+margin:0;
 
-// Carregar programas
-async function carregarProgramas() {
+height:100vh;
 
-    try {
+display:flex;
 
-        const resposta = await fetch("./database/apps.json");
+align-items:center;
 
+justify-content:center;
 
-        if (!resposta.ok) {
-
-            throw new Error("Arquivo apps.json não encontrado");
-
-        }
+background:
+linear-gradient(135deg,#050505,#222);
 
 
-        const programas = await resposta.json();
-
-
-        mostrarPacote(programas);
-
-
-
-    } catch (erro) {
-
-
-        console.error(erro);
-
-
-        document.getElementById("resultado").classList.remove("hidden");
-
-
-        document.getElementById("config").innerHTML = `
-
-        <h3>Erro ao carregar programas</h3>
-
-        <p>
-        Verifique se o arquivo:
-        </p>
-
-        <b>database/apps.json</b>
-
-        está no GitHub.
-
-        `;
-
-
-    }
+color:white;
 
 
 }
 
 
 
-// Mostrar pacote
-
-function mostrarPacote(programas) {
+.container{
 
 
-    document.getElementById("arquitetura")
-    .classList.add("hidden");
+width:90%;
 
+max-width:500px;
 
-    document.getElementById("resultado")
-    .classList.remove("hidden");
+background:#111;
 
+padding:40px;
 
+border-radius:20px;
 
-    let lista = "";
+text-align:center;
 
-
-    programas.forEach(programa => {
-
-
-        lista += `
-
-        <p>
-        ✅ ${programa.nome}
-        <br>
-        <small>${programa.categoria}</small>
-        </p>
-
-        `;
-
-
-    });
-
-
-
-    document.getElementById("config").innerHTML = `
-
-
-    <h3>Configuração escolhida:</h3>
-
-
-    Sistema:
-    <b>${windowsEscolhido}</b>
-
-    <br><br>
-
-    Arquitetura:
-    <b>${arquiteturaEscolhida}</b>
-
-
-    <hr>
-
-
-    <h3>Programas:</h3>
-
-
-    ${lista}
-
-
-    `;
+box-shadow:0 0 40px #000;
 
 
 }
 
 
 
-// Gerar pacote
-
-function gerarPacote() {
+.logo{
 
 
-    alert(
+font-size:70px;
 
-    "Pacote criado com sucesso!\n\n"+
-    windowsEscolhido+
-    "\n"+
-    arquiteturaEscolhida
 
-    );
+}
+
+
+
+h1{
+
+
+font-size:35px;
+
+
+}
+
+
+
+h2{
+
+
+margin-top:30px;
+
+
+}
+
+
+
+p{
+
+
+color:#aaa;
+
+line-height:1.5;
+
+
+}
+
+
+
+button{
+
+
+width:100%;
+
+padding:15px;
+
+margin:10px 0;
+
+border:none;
+
+border-radius:10px;
+
+background:#0078ff;
+
+color:white;
+
+font-size:18px;
+
+cursor:pointer;
+
+
+}
+
+
+
+button:hover{
+
+
+background:#0055cc;
+
+
+}
+
+
+
+#config{
+
+
+background:#1c1c1c;
+
+padding:20px;
+
+border-radius:15px;
+
+margin:20px 0;
+
+text-align:left;
+
+
+}
+
+
+
+.item{
+
+
+padding:10px;
+
+border-bottom:1px solid #333;
+
+
+}
+
+
+
+small{
+
+
+color:#aaa;
 
 
 }
