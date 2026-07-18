@@ -2,90 +2,115 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>PC Reset Kit</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+<title>PC Reset Kit</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 
 <body>
 
+
 <div class="container">
 
-    <div class="logo">
-        🖥️
-    </div>
 
-    <h1>PC RESET KIT</h1>
-
-    <p>
-        Tudo que seu computador precisa
-        depois de uma formatação.
-    </p>
+<div class="logo">
+🖥️
+</div>
 
 
-    <div id="inicio">
-
-        <h2>Qual Windows você instalou?</h2>
+<h1>PC RESET KIT</h1>
 
 
-        <button onclick="selecionarWindows('Windows 10')">
-            Windows 10
-        </button>
-
-
-        <button onclick="selecionarWindows('Windows 11')">
-            Windows 11
-        </button>
-
-    </div>
+<p>
+Tudo que seu computador precisa depois de uma formatação.
+</p>
 
 
 
-    <div id="arquitetura" style="display:none">
+<!-- TELA WINDOWS -->
 
-        <h2>
-            Qual arquitetura do sistema?
-        </h2>
+<div id="telaWindows">
 
 
-        <button onclick="selecionarArquitetura('32 Bits')">
-            32 Bits (x86)
-        </button>
+<h2>
+Qual Windows você instalou?
+</h2>
 
 
-        <button onclick="selecionarArquitetura('64 Bits')">
-            64 Bits (x64)
-        </button>
+<button onclick="selecionarWindows('Windows 10')">
+Windows 10
+</button>
 
 
-    </div>
+<button onclick="selecionarWindows('Windows 11')">
+Windows 11
+</button>
+
+
+</div>
 
 
 
-    <div id="resultado" style="display:none">
-
-        <h2>
-            Seu pacote está pronto
-        </h2>
 
 
-        <div class="card">
-
-            <p id="config"></p>
+<!-- TELA ARQUITETURA -->
 
 
-            <button onclick="gerarPacote()">
-                GERAR PACOTE DE INSTALAÇÃO
-            </button>
-
-        </div>
+<div id="telaArquitetura" style="display:none;">
 
 
-    </div>
+<h2>
+Qual arquitetura do sistema?
+</h2>
+
+
+<button onclick="selecionarArquitetura('32 Bits')">
+32 Bits (x86)
+</button>
+
+
+<button onclick="selecionarArquitetura('64 Bits')">
+64 Bits (x64)
+</button>
+
+
+</div>
+
+
+
+
+
+
+<!-- RESULTADO -->
+
+
+<div id="resultado" style="display:none;">
+
+
+<h2>
+Seu pacote está pronto
+</h2>
+
+
+<div id="config"></div>
+
+
+
+<button onclick="gerarPacote()">
+GERAR PACOTE DE INSTALAÇÃO
+</button>
+
+
+
+</div>
+
+
 
 
 </div>
@@ -94,6 +119,8 @@
 
 <script src="script.js"></script>
 
+
 </body>
+
 
 </html>
