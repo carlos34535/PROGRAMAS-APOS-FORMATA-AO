@@ -1,76 +1,23 @@
 let windowsEscolhido = "";
 let arquiteturaEscolhida = "";
 
-
-// Escolha do Windows
-
-function selecionarWindows(windows) {
-
-    windowsEscolhido = windows;
-
-    document.getElementById("telaWindows").style.display = "none";
-
-    document.getElementById("telaArquitetura").style.display = "block";
-
-}
+let programasSelecionados = [];
 
 
 
-// Escolha da arquitetura
 
-function selecionarArquitetura(tipo) {
+// ESCOLHER WINDOWS
 
-    arquiteturaEscolhida = tipo;
-
-    document.getElementById("telaArquitetura").style.display = "none";
-
-    carregarProgramas();
-
-}
+function selecionarWindows(windows){
 
 
-
-// Carregar programas do banco JSON
-
-async function carregarProgramas() {
+windowsEscolhido = windows;
 
 
-    try {
+document.getElementById("telaWindows").style.display="none";
 
 
-        const resposta = await fetch("./database/apps.json");
-
-
-        const programas = await resposta.json();
-
-
-        mostrarProgramas(programas);
-
-
-
-    } catch (erro) {
-
-
-        console.log(erro);
-
-
-        document.getElementById("resultado").style.display = "block";
-
-
-        document.getElementById("config").innerHTML =
-
-        `
-        <h3>Erro ao carregar banco de programas</h3>
-
-        Verifique:
-        <br><br>
-
-        database/apps.json
-
-        `;
-
-
-    }
+document.getElementById("telaArquitetura").style.display="block";
 
 
 }
@@ -78,65 +25,20 @@ async function carregarProgramas() {
 
 
 
-// Mostrar programas
 
-function mostrarProgramas(programas) {
-
-
-    document.getElementById("resultado").style.display = "block";
+// ESCOLHER ARQUITETURA
 
 
-    let lista = "";
+function selecionarArquitetura(tipo){
 
 
-
-    programas.forEach(programa => {
-
-
-        lista += `
-
-        <div class="item">
-
-        ✅ <b>${programa.nome}</b>
-
-        <br>
-
-        ${programa.categoria}
-
-        </div>
-
-        <br>
-
-        `;
+arquiteturaEscolhida = tipo;
 
 
-    });
+document.getElementById("telaArquitetura").style.display="none";
 
 
-
-    document.getElementById("config").innerHTML =
-
-
-    `
-
-    Windows:
-    <b>${windowsEscolhido}</b>
-
-    <br><br>
-
-    Arquitetura:
-    <b>${arquiteturaEscolhida}</b>
-
-
-    <hr>
-
-
-    <h3>Programas:</h3>
-
-
-    ${lista}
-
-    `;
+carregarProgramas();
 
 
 }
@@ -144,19 +46,209 @@ function mostrarProgramas(programas) {
 
 
 
-// Botão gerar pacote
-
-function gerarPacote() {
 
 
-alert(
+// BUSCAR PROGRAMAS
 
-"Pacote criado!\n\n"+
+
+async function carregarProgramas(){
+
+
+try{
+
+
+const resposta = await fetch("./database/apps.json");
+
+
+const programas = await resposta.json();
+
+
+
+document.getElementById("resultado").style.display="block";
+
+
+
+document.getElementById("config").innerHTML=
+
+`
+
+Windows:
+<b>${windowsEscolhido}</b>
+
+<br><br>
+
+Arquitetura:
+<b>${arquiteturaEscolhida}</b>
+
+`;
+
+
+
+
+let lista="";
+
+
+
+programas.forEach((programa,index)=>{
+
+
+lista += `
+
+
+<div class="item">
+
+
+<input 
+type="checkbox"
+id="prog${index}"
+value="${programa.nome}"
+onchange="selecionarPrograma('${programa.nome}')">
+
+
+<label for="prog${index}">
+
+<b>${programa.nome}</b>
+
+<br>
+
+<small>${programa.categoria}</small>
+
+</label>
+
+
+</div>
+
+
+`;
+
+
+});
+
+
+
+document.getElementById("listaProgramas").innerHTML = lista;
+
+
+
+}
+
+catch(error){
+
+
+console.log(error);
+
+
+document.getElementById("listaProgramas").innerHTML=
+
+"Erro ao carregar programas";
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+// MARCAR PROGRAMAS
+
+
+function selecionarPrograma(nome){
+
+
+if(programasSelecionados.includes(nome)){
+
+
+programasSelecionados =
+programasSelecionados.filter(
+item => item !== nome
+);
+
+
+}
+
+else{
+
+
+programasSelecionados.push(nome);
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+// GERAR PACOTE
+
+
+function gerarPacote(){
+
+
+
+if(programasSelecionados.length === 0){
+
+
+alert("Selecione pelo menos um programa");
+
+
+return;
+
+
+}
+
+
+
+let texto =
+
+"PC RESET KIT\n\n"+
+
 windowsEscolhido+
 "\n"+
-arquiteturaEscolhida
+arquiteturaEscolhida+
+"\n\nProgramas:\n\n";
 
+
+
+programasSelecionados.forEach(programa=>{
+
+
+texto += "✔ "+programa+"\n";
+
+
+});
+
+
+
+let arquivo = new Blob(
+[texto],
+{type:"text/plain"}
 );
+
+
+
+let link=document.createElement("a");
+
+
+link.href=URL.createObjectURL(arquivo);
+
+
+link.download="PC_RESET_KIT.txt";
+
+
+link.click();
+
 
 
 }
