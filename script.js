@@ -50,7 +50,9 @@ async function carregarProgramas(){
         const programas = await resposta.json();
 
 
+
         document.getElementById("resultado").style.display = "block";
+
 
 
         document.getElementById("config").innerHTML = `
@@ -79,6 +81,7 @@ async function carregarProgramas(){
             lista += `
 
             <div class="item">
+
 
             <input 
             type="checkbox"
@@ -115,6 +118,7 @@ async function carregarProgramas(){
 
     }
 
+
     catch(error){
 
 
@@ -127,8 +131,8 @@ async function carregarProgramas(){
     }
 
 
-
 }
+
 
 
 
@@ -162,8 +166,9 @@ function selecionarPrograma(nome){
 
 
 
+
 // ================================
-// GERAR BAT
+// GERAR INSTALADOR BAT
 // ================================
 
 function gerarPacote(){
@@ -179,9 +184,7 @@ function gerarPacote(){
 
 
 
-    let bat = `
-
-@echo off
+    let bat = `@echo off
 
 title PC RESET KIT
 
@@ -200,8 +203,9 @@ echo ===============================
         if(programa=="Google Chrome"){
 
             bat += `
-echo Instalando Chrome...
+echo Instalando Google Chrome...
 winget install Google.Chrome --silent
+
 `;
 
         }
@@ -213,6 +217,7 @@ winget install Google.Chrome --silent
             bat += `
 echo Instalando 7-Zip...
 winget install 7zip.7zip --silent
+
 `;
 
         }
@@ -222,8 +227,9 @@ winget install 7zip.7zip --silent
         if(programa=="VLC Player"){
 
             bat += `
-echo Instalando VLC...
+echo Instalando VLC Player...
 winget install VideoLAN.VLC --silent
+
 `;
 
         }
@@ -235,6 +241,7 @@ winget install VideoLAN.VLC --silent
             bat += `
 echo Instalando Java...
 winget install Oracle.JavaRuntimeEnvironment --silent
+
 `;
 
         }
@@ -246,6 +253,7 @@ winget install Oracle.JavaRuntimeEnvironment --silent
             bat += `
 echo Instalando Visual C++...
 winget install Microsoft.VCRedist.2015+.x64 --silent
+
 `;
 
         }
@@ -256,35 +264,73 @@ winget install Microsoft.VCRedist.2015+.x64 --silent
 
 
 
-bat += `
+    bat += `
 
 echo.
-echo FINALIZADO
+echo INSTALACAO FINALIZADA
 
 pause
-
 `;
 
 
 
-let arquivo = new Blob(
-[bat],
-{type:"application/bat"}
-);
+    let arquivo = new Blob(
+        [bat],
+        {type:"application/bat"}
+    );
 
 
 
-let link=document.createElement("a");
+    let link = document.createElement("a");
 
 
-link.href=URL.createObjectURL(arquivo);
+    link.href = URL.createObjectURL(arquivo);
 
 
-link.download="PC_RESET_KIT.bat";
+    link.download = "PC_RESET_KIT.bat";
 
 
-link.click();
+    link.click();
 
+
+}
+
+
+
+
+
+
+// ================================
+// VOLTAR PARA WINDOWS
+// ================================
+
+function voltarWindows(){
+
+
+    document.getElementById("telaArquitetura").style.display = "none";
+
+
+    document.getElementById("telaWindows").style.display = "block";
+
+
+}
+
+
+
+
+
+
+// ================================
+// VOLTAR PARA ARQUITETURA
+// ================================
+
+function voltarArquitetura(){
+
+
+    document.getElementById("resultado").style.display = "none";
+
+
+    document.getElementById("telaArquitetura").style.display = "block";
 
 
 }
