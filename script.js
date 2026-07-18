@@ -1,6 +1,11 @@
 let windowsEscolhido = "";
 let arquiteturaEscolhida = "";
+
 let programasSelecionados = [];
+
+let todosProgramas = [];
+
+
 
 
 // ================================
@@ -11,11 +16,16 @@ function selecionarWindows(windows){
 
     windowsEscolhido = windows;
 
+
     document.getElementById("telaWindows").style.display = "none";
+
 
     document.getElementById("telaArquitetura").style.display = "block";
 
+
 }
+
+
 
 
 
@@ -27,11 +37,16 @@ function selecionarArquitetura(tipo){
 
     arquiteturaEscolhida = tipo;
 
+
     document.getElementById("telaArquitetura").style.display = "none";
+
 
     carregarProgramas();
 
+
 }
+
+
 
 
 
@@ -40,6 +55,7 @@ function selecionarArquitetura(tipo){
 // ================================
 
 async function carregarProgramas(){
+
 
     try{
 
@@ -50,6 +66,9 @@ async function carregarProgramas(){
         const programas = await resposta.json();
 
 
+        todosProgramas = programas;
+
+
 
         document.getElementById("resultado").style.display = "block";
 
@@ -57,65 +76,28 @@ async function carregarProgramas(){
 
         document.getElementById("config").innerHTML = `
 
+
         Windows:
         <b>${windowsEscolhido}</b>
 
+
         <br><br>
+
 
         Arquitetura:
         <b>${arquiteturaEscolhida}</b>
 
-        <hr>
 
         `;
 
 
 
-        let lista = "";
-
-
-
-        programas.forEach((programa,index)=>{
-
-
-            lista += `
-
-            <div class="item">
-
-
-            <input 
-            type="checkbox"
-            id="prog${index}"
-            onchange="selecionarPrograma('${programa.nome}')">
-
-
-            <label for="prog${index}">
-
-            <b>${programa.nome}</b>
-
-            <br>
-
-            <small>${programa.categoria}</small>
-
-            </label>
-
-
-            </div>
-
-            <br>
-
-            `;
-
-
-        });
-
-
-
-        document.getElementById("listaProgramas").innerHTML = lista;
+        mostrarLista(todosProgramas);
 
 
 
     }
+
 
     catch(error){
 
@@ -123,13 +105,131 @@ async function carregarProgramas(){
         console.log(error);
 
 
-        alert("Erro ao carregar programas");
+        alert("Erro ao carregar aplicativos");
 
 
     }
 
 
 }
+
+
+
+
+
+
+
+// ================================
+// MOSTRAR LISTA
+// ================================
+
+function mostrarLista(programas){
+
+
+
+    let lista = "";
+
+
+
+    programas.forEach((programa,index)=>{
+
+
+        lista += `
+
+
+        <div class="item">
+
+
+        <input
+
+        type="checkbox"
+
+        id="prog${index}"
+
+        onchange="selecionarPrograma('${programa.nome}')"
+
+        >
+
+
+
+        <label for="prog${index}">
+
+
+        <b>${programa.nome}</b>
+
+
+        <br>
+
+
+        <small>${programa.categoria}</small>
+
+
+        </label>
+
+
+        </div>
+
+
+        <br>
+
+
+        `;
+
+
+    });
+
+
+
+    document.getElementById("listaProgramas")
+    .innerHTML = lista;
+
+
+
+}
+
+
+
+
+
+
+
+// ================================
+// BUSCAR APLICATIVO
+// ================================
+
+function buscarAplicativo(){
+
+
+
+    let texto = document
+    .getElementById("buscaApp")
+    .value
+    .toLowerCase();
+
+
+
+    let filtrados = todosProgramas.filter(programa =>
+
+
+
+        programa.nome
+        .toLowerCase()
+        .includes(texto)
+
+
+
+    );
+
+
+
+    mostrarLista(filtrados);
+
+
+
+}
+
+
+
 
 
 
@@ -142,11 +242,14 @@ async function carregarProgramas(){
 function selecionarPrograma(nome){
 
 
+
     if(programasSelecionados.includes(nome)){
 
 
         programasSelecionados =
-        programasSelecionados.filter(item => item !== nome);
+        programasSelecionados.filter(
+            item => item !== nome
+        );
 
 
     }
@@ -160,7 +263,9 @@ function selecionarPrograma(nome){
     }
 
 
+
 }
+
 
 
 
@@ -175,94 +280,61 @@ function selecionarPrograma(nome){
 function gerarPacote(){
 
 
+
     if(programasSelecionados.length === 0){
 
-        alert("Selecione pelo menos um programa");
+
+        alert("Selecione pelo menos um aplicativo");
+
 
         return;
+
 
     }
 
 
 
-    let bat = `@echo off
+
+
+let bat = `
+
+@echo off
 
 title PC RESET KIT
 
-echo ===============================
+echo ==========================
 echo PC RESET KIT
-echo Instalando programas
-echo ===============================
+echo Instalando aplicativos
+echo ==========================
 
 `;
 
 
 
-    programasSelecionados.forEach(programa=>{
 
 
-        if(programa=="Google Chrome"){
+programasSelecionados.forEach(programa=>{
 
-            bat += `
-echo Instalando Google Chrome...
-winget install Google.Chrome --silent
+
+bat += `
+
+echo Instalando ${programa}...
+
 `;
 
-        }
+
+
+});
 
 
 
-        if(programa=="7-Zip"){
-
-            bat += `
-echo Instalando 7-Zip...
-winget install 7zip.7zip --silent
-`;
-
-        }
 
 
 
-        if(programa=="VLC Player"){
-
-            bat += `
-echo Instalando VLC Player...
-winget install VideoLAN.VLC --silent
-`;
-
-        }
-
-
-
-        if(programa=="Java"){
-
-            bat += `
-echo Instalando Java...
-winget install Oracle.JavaRuntimeEnvironment --silent
-`;
-
-        }
-
-
-
-        if(programa=="Visual C++ Redistributable"){
-
-            bat += `
-echo Instalando Visual C++...
-winget install Microsoft.VCRedist.2015+.x64 --silent
-`;
-
-        }
-
-
-
-    });
-
-
-
-    bat += `
+bat += `
 
 echo.
+
 echo INSTALACAO FINALIZADA
 
 pause
@@ -271,23 +343,38 @@ pause
 
 
 
-    let arquivo = new Blob(
-        [bat],
-        {type:"application/bat"}
-    );
 
 
 
-    let link = document.createElement("a");
+
+let arquivo = new Blob(
+
+[bat],
+
+{type:"application/bat"}
+
+);
 
 
-    link.href = URL.createObjectURL(arquivo);
 
 
-    link.download = "PC_RESET_KIT.bat";
+
+let link = document.createElement("a");
 
 
-    link.click();
+
+link.href =
+URL.createObjectURL(arquivo);
+
+
+
+link.download =
+"PC_RESET_KIT.bat";
+
+
+
+link.click();
+
 
 
 }
@@ -299,14 +386,19 @@ pause
 
 
 // ================================
-// VOLTAR PARA WINDOWS
+// VOLTAR WINDOWS
 // ================================
 
 function voltarWindows(){
 
-    document.getElementById("telaArquitetura").style.display = "none";
 
-    document.getElementById("telaWindows").style.display = "block";
+document.getElementById("telaArquitetura")
+.style.display="none";
+
+
+document.getElementById("telaWindows")
+.style.display="block";
+
 
 }
 
@@ -315,14 +407,21 @@ function voltarWindows(){
 
 
 
+
+
 // ================================
-// VOLTAR PARA ARQUITETURA
+// VOLTAR ARQUITETURA
 // ================================
 
 function voltarArquitetura(){
 
-    document.getElementById("resultado").style.display = "none";
 
-    document.getElementById("telaArquitetura").style.display = "block";
+document.getElementById("resultado")
+.style.display="none";
+
+
+document.getElementById("telaArquitetura")
+.style.display="block";
+
 
 }
