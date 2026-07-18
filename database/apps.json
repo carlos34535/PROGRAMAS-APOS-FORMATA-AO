@@ -1,407 +1,586 @@
 [
-{
-"nome":"Google Chrome",
-"categoria":"Navegador"
-},
-{
-"nome":"Microsoft Edge",
-"categoria":"Navegador"
-},
-{
-"nome":"Mozilla Firefox",
-"categoria":"Navegador"
-},
-{
-"nome":"Opera GX",
-"categoria":"Navegador Gamer"
-},
-{
-"nome":"Brave Browser",
-"categoria":"Navegador"
-},
-{
-"nome":"Vivaldi Browser",
-"categoria":"Navegador"
-},
-
-{
-"nome":"7-Zip",
-"categoria":"Compactador"
-},
-{
-"nome":"WinRAR",
-"categoria":"Compactador"
-},
-{
-"nome":"PeaZip",
-"categoria":"Compactador"
-},
-
-{
-"nome":"VLC Player",
-"categoria":"Multimídia"
-},
-{
-"nome":"Spotify",
-"categoria":"Multimídia"
-},
-{
-"nome":"iTunes",
-"categoria":"Multimídia"
-},
-{
-"nome":"AIMP",
-"categoria":"Multimídia"
-},
-{
-"nome":"PotPlayer",
-"categoria":"Multimídia"
-},
-
-{
-"nome":"WhatsApp Desktop",
-"categoria":"Comunicação"
-},
-{
-"nome":"Telegram",
-"categoria":"Comunicação"
-},
-{
-"nome":"Discord",
-"categoria":"Comunicação"
-},
-{
-"nome":"Zoom",
-"categoria":"Comunicação"
-},
-{
-"nome":"Microsoft Teams",
-"categoria":"Comunicação"
-},
-{
-"nome":"Skype",
-"categoria":"Comunicação"
-},
-
-{
-"nome":"Microsoft Office",
-"categoria":"Escritório"
-},
-{
-"nome":"LibreOffice",
-"categoria":"Escritório"
-},
-{
-"nome":"WPS Office",
-"categoria":"Escritório"
-},
-{
-"nome":"OnlyOffice",
-"categoria":"Escritório"
-},
-
-{
-"nome":"Adobe Acrobat Reader",
-"categoria":"PDF"
-},
-{
-"nome":"Foxit PDF Reader",
-"categoria":"PDF"
-},
-{
-"nome":"Sumatra PDF",
-"categoria":"PDF"
-},
-{
-"nome":"Java",
-"categoria":"Sistema"
-},
-{
-"nome":"Visual C++ Redistributable",
-"categoria":"Sistema"
-},
-{
-"nome":"DirectX",
-"categoria":"Sistema"
-},
-{
-"nome":"NET Framework",
-"categoria":"Sistema"
-},
-{
-"nome":"OpenAL",
-"categoria":"Sistema"
-},
-
-{
-"nome":"CPU-Z",
-"categoria":"Diagnóstico"
-},
-{
-"nome":"GPU-Z",
-"categoria":"Diagnóstico"
-},
-{
-"nome":"CrystalDiskInfo",
-"categoria":"Diagnóstico"
-},
-{
-"nome":"HWMonitor",
-"categoria":"Diagnóstico"
-},
-{
-"nome":"Speccy",
-"categoria":"Diagnóstico"
-},
-
-{
-"nome":"Steam",
-"categoria":"Games"
-},
-{
-"nome":"Epic Games Launcher",
-"categoria":"Games"
-},
-{
-"nome":"Battle.net",
-"categoria":"Games"
-},
-{
-"nome":"Riot Client",
-"categoria":"Games"
-},
-{
-"nome":"Ubisoft Connect",
-"categoria":"Games"
-},
-{
-"nome":"EA App",
-"categoria":"Games"
-},
-
-{
-"nome":"OBS Studio",
-"categoria":"Gravação"
-},
-{
-"nome":"Streamlabs",
-"categoria":"Gravação"
-},
-{
-"nome":"Bandicam",
-"categoria":"Gravação"
-},
-
-{
-"nome":"Canva",
-"categoria":"Design"
-},
-{
-"nome":"GIMP",
-"categoria":"Design"
-}
-
-
-
-  
-"nome":"Google Chrome",
-"categoria":"Navegador"
-},
-{
-"nome":"Microsoft Edge",
-"categoria":"Navegador"
-},
-{
-"nome":"Mozilla Firefox",
-"categoria":"Navegador"
-},
-{
-"nome":"Opera GX",
-"categoria":"Navegador Gamer"
-},
-{
-"nome":"Brave Browser",
-"categoria":"Navegador"
-},
-{
-"nome":"Vivaldi Browser",
-"categoria":"Navegador"
-},
-
-{
-"nome":"7-Zip",
-"categoria":"Compactador"
-},
-{
-"nome":"WinRAR",
-"categoria":"Compactador"
-},
-{
-"nome":"PeaZip",
-"categoria":"Compactador"
-},
-
-{
-"nome":"VLC Player",
-"categoria":"Multimídia"
-},
-{
-"nome":"Spotify",
-"categoria":"Multimídia"
-},
-{
-"nome":"iTunes",
-"categoria":"Multimídia"
-},
-{
-"nome":"AIMP",
-"categoria":"Multimídia"
-},
-{
-"nome":"PotPlayer",
-"categoria":"Multimídia"
-},
-
-{
-"nome":"WhatsApp Desktop",
-"categoria":"Comunicação"
-},
-{
-"nome":"Telegram",
-"categoria":"Comunicação"
-},
-{
-"nome":"Discord",
-"categoria":"Comunicação"
-},
-{
-"nome":"Zoom",
-"categoria":"Comunicação"
-},
-{
-"nome":"Microsoft Teams",
-"categoria":"Comunicação"
-},
-{
-"nome":"Skype",
-"categoria":"Comunicação"
-},
-
-{
-"nome":"Microsoft Office",
-"categoria":"Escritório"
-},
-{
-"nome":"LibreOffice",
-"categoria":"Escritório"
-},
-{
-"nome":"WPS Office",
-"categoria":"Escritório"
-},
-{
-"nome":"OnlyOffice",
-"categoria":"Escritório"
-},
-
-{
-"nome":"Adobe Acrobat Reader",
-"categoria":"PDF"
-},
-{
-"nome":"Foxit PDF Reader",
-"categoria":"PDF"
-},
-{
-"nome":"Sumatra PDF",
-"categoria":"PDF"
-},
-
-{
-"nome":"Java",
-"categoria":"Sistema"
-},
-{
-"nome":"Visual C++ Redistributable",
-"categoria":"Sistema"
-},
-{
-"nome":"DirectX",
-"categoria":"Sistema"
-},
-{
-"nome":"NET Framework",
-"categoria":"Sistema"
-},
-{
-"nome":"OpenAL",
-"categoria":"Sistema"
-},
-
-{
-"nome":"CPU-Z",
-"categoria":"Diagnóstico"
-},
-{
-"nome":"GPU-Z",
-"categoria":"Diagnóstico"
-},
-{
-"nome":"CrystalDiskInfo",
-"categoria":"Diagnóstico"
-},
-{
-"nome":"HWMonitor",
-"categoria":"Diagnóstico"
-},
-{
-"nome":"Speccy",
-"categoria":"Diagnóstico"
-},
-
-{
-"nome":"Steam",
-"categoria":"Games"
-},
-{
-"nome":"Epic Games Launcher",
-"categoria":"Games"
-},
-{
-"nome":"Battle.net",
-"categoria":"Games"
-},
-{
-"nome":"Riot Client",
-"categoria":"Games"
-},
-{
-"nome":"Ubisoft Connect",
-"categoria":"Games"
-},
-{
-"nome":"EA App",
-"categoria":"Games"
-},
-
-{
-"nome":"OBS Studio",
-"categoria":"Gravação"
-},
-{
-"nome":"Streamlabs",
-"categoria":"Gravação"
-},
-{
-"nome":"Bandicam",
-"categoria":"Gravação"
-},
-
-{
-"nome":"Canva",
-"categoria":"Design"
-},
-{
-"nome":"GIMP",
-"categoria":"Design"
-}
+  {
+    "nome": "Google Chrome",
+    "categoria": "Navegador"
+  },
+  {
+    "nome": "Microsoft Edge",
+    "categoria": "Navegador"
+  },
+  {
+    "nome": "Mozilla Firefox",
+    "categoria": "Navegador"
+  },
+  {
+    "nome": "Opera GX",
+    "categoria": "Navegador Gamer"
+  },
+  {
+    "nome": "Brave Browser",
+    "categoria": "Navegador"
+  },
+  {
+    "nome": "Vivaldi Browser",
+    "categoria": "Navegador"
+  },
+  {
+    "nome": "7-Zip",
+    "categoria": "Compactador"
+  },
+  {
+    "nome": "WinRAR",
+    "categoria": "Compactador"
+  },
+  {
+    "nome": "PeaZip",
+    "categoria": "Compactador"
+  },
+  {
+    "nome": "VLC Player",
+    "categoria": "Multimídia"
+  },
+  {
+    "nome": "Spotify",
+    "categoria": "Multimídia"
+  },
+  {
+    "nome": "AIMP",
+    "categoria": "Multimídia"
+  },
+  {
+    "nome": "WhatsApp Desktop",
+    "categoria": "Comunicação"
+  },
+  {
+    "nome": "Telegram",
+    "categoria": "Comunicação"
+  },
+  {
+    "nome": "Discord",
+    "categoria": "Comunicação"
+  },
+  {
+    "nome": "Zoom",
+    "categoria": "Comunicação"
+  },
+  {
+    "nome": "Microsoft Teams",
+    "categoria": "Comunicação"
+  },
+  {
+    "nome": "Skype",
+    "categoria": "Comunicação"
+  },
+  {
+    "nome": "Microsoft Office",
+    "categoria": "Escritório"
+  },
+  {
+    "nome": "LibreOffice",
+    "categoria": "Escritório"
+  },
+  {
+    "nome": "WPS Office",
+    "categoria": "Escritório"
+  },
+  {
+    "nome": "OnlyOffice",
+    "categoria": "Escritório"
+  },
+  {
+    "nome": "Adobe Acrobat Reader",
+    "categoria": "PDF"
+  },
+  {
+    "nome": "Foxit PDF Reader",
+    "categoria": "PDF"
+  },
+  {
+    "nome": "Sumatra PDF",
+    "categoria": "PDF"
+  },
+  {
+    "nome": "Java",
+    "categoria": "Sistema"
+  },
+  {
+    "nome": "Visual C++ Redistributable",
+    "categoria": "Sistema"
+  },
+  {
+    "nome": "DirectX",
+    "categoria": "Sistema"
+  },
+  {
+    "nome": ".NET Framework",
+    "categoria": "Sistema"
+  },
+  {
+    "nome": "OpenAL",
+    "categoria": "Sistema"
+  },
+  {
+    "nome": "CPU-Z",
+    "categoria": "Diagnóstico"
+  },
+  {
+    "nome": "GPU-Z",
+    "categoria": "Diagnóstico"
+  },
+  {
+    "nome": "CrystalDiskInfo",
+    "categoria": "Diagnóstico"
+  },
+  {
+    "nome": "HWMonitor",
+    "categoria": "Diagnóstico"
+  },
+  {
+    "nome": "Speccy",
+    "categoria": "Diagnóstico"
+  },
+  {
+    "nome": "Steam",
+    "categoria": "Games"
+  },
+  {
+    "nome": "Epic Games Launcher",
+    "categoria": "Games"
+  },
+  {
+    "nome": "Battle.net",
+    "categoria": "Games"
+  },
+  {
+    "nome": "Riot Client",
+    "categoria": "Games"
+  },
+  {
+    "nome": "Ubisoft Connect",
+    "categoria": "Games"
+  },
+  {
+    "nome": "EA App",
+    "categoria": "Games"
+  },
+  {
+    "nome": "OBS Studio",
+    "categoria": "Gravação"
+  },
+  {
+    "nome": "Streamlabs",
+    "categoria": "Gravação"
+  },
+  {
+    "nome": "Bandicam",
+    "categoria": "Gravação"
+  },
+  {
+    "nome": "Canva",
+    "categoria": "Design"
+  },
+  {
+    "nome": "GIMP",
+    "categoria": "Design"
+  },
+  {
+    "nome": "Paint.NET",
+    "categoria": "Design"
+  },
+  {
+    "nome": "Krita",
+    "categoria": "Design"
+  },
+  {
+    "nome": "Inkscape",
+    "categoria": "Design"
+  },
+  {
+    "nome": "Google Drive",
+    "categoria": "Nuvem"
+  },
+  {
+    "nome": "OneDrive",
+    "categoria": "Nuvem"
+  },
+  {
+    "nome": "Dropbox",
+    "categoria": "Nuvem"
+  },
+  {
+    "nome": "MEGA",
+    "categoria": "Nuvem"
+  },
+  {
+    "nome": "AnyDesk",
+    "categoria": "Acesso Remoto"
+  },
+  {
+    "nome": "TeamViewer",
+    "categoria": "Acesso Remoto"
+  },
+  {
+    "nome": "RustDesk",
+    "categoria": "Acesso Remoto"
+  },
+  {
+    "nome": "Malwarebytes",
+    "categoria": "Segurança"
+  },
+  {
+    "nome": "Avast Free Antivirus",
+    "categoria": "Segurança"
+  },
+  {
+    "nome": "Bitdefender",
+    "categoria": "Segurança"
+  },
+  {
+    "nome": "Kaspersky",
+    "categoria": "Segurança"
+  },
+  {
+    "nome": "CCleaner",
+    "categoria": "Manutenção"
+  },
+  {
+    "nome": "BleachBit",
+    "categoria": "Manutenção"
+  },
+  {
+    "nome": "Glary Utilities",
+    "categoria": "Manutenção"
+  },
+  {
+    "nome": "Notepad++",
+    "categoria": "Programação"
+  },
+  {
+    "nome": "Visual Studio Code",
+    "categoria": "Programação"
+  },
+  {
+    "nome": "Git",
+    "categoria": "Programação"
+  },
+  {
+    "nome": "Python",
+    "categoria": "Programação"
+  },
+  {
+    "nome": "Node.js",
+    "categoria": "Programação"
+  },
+  {
+    "nome": "Blender",
+    "categoria": "3D"
+  },
+  {
+    "nome": "Unity Hub",
+    "categoria": "Desenvolvimento"
+  },
+  {
+    "nome": "Unreal Engine Launcher",
+    "categoria": "Desenvolvimento"
+  },
+  {
+    "nome": "qBittorrent",
+    "categoria": "Downloads"
+  },
+  {
+    "nome": "Internet Download Manager",
+    "categoria": "Downloads"
+  },
+  {
+    "nome": "NVIDIA GeForce Experience",
+    "categoria": "Drivers"
+  },
+  {
+    "nome": "AMD Software Adrenalin",
+    "categoria": "Drivers"
+  },
+  {
+    "nome": "Intel Driver Assistant",
+    "categoria": "Drivers"
+  },
+  {
+    "nome": "Logitech G Hub",
+    "categoria": "Periféricos"
+  },
+  {
+    "nome": "Razer Synapse",
+    "categoria": "Periféricos"
+  },
+  {
+    "nome": "Corsair iCUE",
+    "categoria": "Periféricos"
+  },
+  {
+    "nome": "OpenVPN",
+    "categoria": "Rede"
+  },
+  {
+    "nome": "NordVPN",
+    "categoria": "Rede"
+  },
+  {
+    "nome": "WireGuard",
+    "categoria": "Rede"
+  },
+  {
+    "nome": "VirtualBox",
+    "categoria": "Virtualização"
+  },
+  {
+    "nome": "VMware Workstation Player",
+    "categoria": "Virtualização"
+  },
+  {
+    "nome": "HandBrake",
+    "categoria": "Vídeo"
+  },
+  {
+    "nome": "Shotcut",
+    "categoria": "Vídeo"
+  },
+  {
+    "nome": "DaVinci Resolve",
+    "categoria": "Vídeo"
+  },
+  {
+    "nome": "Adobe Photoshop",
+    "categoria": "Design"
+  },
+  {
+    "nome": "Adobe Premiere Pro",
+    "categoria": "Vídeo"
+  },
+  {
+    "nome": "Adobe Illustrator",
+    "categoria": "Design"
+  },
+  {
+    "nome": "Figma",
+    "categoria": "Design"
+  },
+  {
+    "nome": "AutoCAD",
+    "categoria": "Engenharia"
+  },
+  {
+    "nome": "HP Smart",
+    "categoria": "Impressoras"
+  },
+  {
+    "nome": "Epson Printer Driver",
+    "categoria": "Impressoras"
+  },
+  {
+    "nome": "Canon Print",
+    "categoria": "Impressoras"
+  },
+  {
+    "nome": "TeraCopy",
+    "categoria": "Arquivos"
+  },
+  {
+    "nome": "Everything Search",
+    "categoria": "Arquivos"
+  },
+  {
+    "nome": "WinDirStat",
+    "categoria": "Arquivos"
+  },
+  {
+    "nome": "ShareX",
+    "categoria": "Captura"
+  },
+  {
+    "nome": "Greenshot",
+    "categoria": "Captura"
+  },
+  {
+    "nome": "Lightshot",
+    "categoria": "Captura"
+  },
+  {
+    "nome": "Google Earth",
+    "categoria": "Utilidades"
+  },
+  {
+    "nome": "TeamSpeak",
+    "categoria": "Comunicação"
+  },
+  {
+    "nome": "XAMPP",
+    "categoria": "Servidor"
+  },
+  {
+    "nome": "Postman",
+    "categoria": "Programação"
+  },
+  {
+    "nome": "MySQL Workbench",
+    "categoria": "Banco de Dados"
+  },
+  {
+    "nome": "DBeaver",
+    "categoria": "Banco de Dados"
+  },
+  {
+    "nome": "Docker Desktop",
+    "categoria": "Desenvolvimento"
+  },
+  {
+    "nome": "Android Studio",
+    "categoria": "Desenvolvimento"
+  },
+  {
+    "nome": "Eclipse",
+    "categoria": "Programação"
+  },
+  {
+    "nome": "Audacity",
+    "categoria": "Áudio"
+  },
+  {
+    "nome": "FL Studio",
+    "categoria": "Áudio"
+  },
+  {
+    "nome": "Reaper",
+    "categoria": "Áudio"
+  },
+  {
+    "nome": "Nero Burning ROM",
+    "categoria": "Gravação"
+  },
+  {
+    "nome": "ImgBurn",
+    "categoria": "Gravação"
+  },
+  {
+    "nome": "Rufus",
+    "categoria": "Pendrive Bootável"
+  },
+  {
+    "nome": "Ventoy",
+    "categoria": "Pendrive Bootável"
+  },
+  {
+    "nome": "CrystalDiskMark",
+    "categoria": "Diagnóstico"
+  },
+  {
+    "nome": "MemTest86",
+    "categoria": "Diagnóstico"
+  },
+  {
+    "nome": "Autoruns",
+    "categoria": "Sistema"
+  },
+  {
+    "nome": "Process Explorer",
+    "categoria": "Sistema"
+  },
+  {
+    "nome": "Sysinternals Suite",
+    "categoria": "Sistema"
+  },
+  {
+    "nome": "AdwCleaner",
+    "categoria": "Segurança"
+  },
+  {
+    "nome": "Malwarebytes Browser Guard",
+    "categoria": "Segurança"
+  },
+  {
+    "nome": "Chrome Beta",
+    "categoria": "Navegador"
+  },
+  {
+    "nome": "Firefox Developer Edition",
+    "categoria": "Navegador"
+  },
+  {
+    "nome": "Telegram Portable",
+    "categoria": "Comunicação"
+  },
+  {
+    "nome": "7-Zip ZS",
+    "categoria": "Compactador"
+  },
+  {
+    "nome": "Virtual CloneDrive",
+    "categoria": "Discos"
+  },
+  {
+    "nome": "PowerToys",
+    "categoria": "Sistema"
+  },
+  {
+    "nome": "Everything Portable",
+    "categoria": "Arquivos"
+  },
+  {
+    "nome": "HWiNFO",
+    "categoria": "Diagnóstico"
+  },
+  {
+    "nome": "OCCT",
+    "categoria": "Diagnóstico"
+  },
+  {
+    "nome": "AIDA64",
+    "categoria": "Diagnóstico"
+  },
+  {
+    "nome": "FileZilla",
+    "categoria": "FTP"
+  },
+  {
+    "nome": "Cyberduck",
+    "categoria": "FTP"
+  },
+  {
+    "nome": "PuTTY",
+    "categoria": "Rede"
+  },
+  {
+    "nome": "WinSCP",
+    "categoria": "Rede"
+  },
+  {
+    "nome": "MobaXterm",
+    "categoria": "Rede"
+  },
+  {
+    "nome": "Notion",
+    "categoria": "Produtividade"
+  },
+  {
+    "nome": "Trello",
+    "categoria": "Produtividade"
+  },
+  {
+    "nome": "Evernote",
+    "categoria": "Produtividade"
+  },
+  {
+    "nome": "Viber",
+    "categoria": "Comunicação"
+  },
+  {
+    "nome": "Signal",
+    "categoria": "Comunicação"
+  },
+  {
+    "nome": "LINE",
+    "categoria": "Comunicação"
+  },
+  {
+    "nome": "MPC-HC",
+    "categoria": "Vídeo"
+  }
+]
