@@ -1,586 +1,652 @@
 [
   {
     "nome": "Google Chrome",
-    "categoria": "Navegador"
+    "categoria": "Navegador",
+    "descricao": "Navegador rápido para acessar sites, sistemas e serviços da internet."
   },
   {
     "nome": "Microsoft Edge",
-    "categoria": "Navegador"
+    "categoria": "Navegador",
+    "descricao": "Navegador oficial do Windows com integração ao sistema."
   },
   {
     "nome": "Mozilla Firefox",
-    "categoria": "Navegador"
+    "categoria": "Navegador",
+    "descricao": "Navegador focado em privacidade e personalização."
   },
   {
     "nome": "Opera GX",
-    "categoria": "Navegador Gamer"
+    "categoria": "Navegador Gamer",
+    "descricao": "Navegador desenvolvido para usuários gamers."
   },
   {
     "nome": "Brave Browser",
-    "categoria": "Navegador"
+    "categoria": "Navegador",
+    "descricao": "Navegador com bloqueio de anúncios e foco em privacidade."
   },
   {
     "nome": "Vivaldi Browser",
-    "categoria": "Navegador"
+    "categoria": "Navegador",
+    "descricao": "Navegador avançado com muitas opções de configuração."
   },
   {
     "nome": "7-Zip",
-    "categoria": "Compactador"
+    "categoria": "Compactador",
+    "descricao": "Ferramenta gratuita para compactar e extrair arquivos."
   },
   {
     "nome": "WinRAR",
-    "categoria": "Compactador"
+    "categoria": "Compactador",
+    "descricao": "Programa tradicional para arquivos compactados RAR e ZIP."
   },
   {
     "nome": "PeaZip",
-    "categoria": "Compactador"
+    "categoria": "Compactador",
+    "descricao": "Compactador gratuito com suporte a vários formatos."
   },
   {
     "nome": "VLC Player",
-    "categoria": "Multimídia"
+    "categoria": "Multimídia",
+    "descricao": "Reprodutor de vídeo compatível com praticamente todos os formatos."
   },
   {
     "nome": "Spotify",
-    "categoria": "Multimídia"
+    "categoria": "Multimídia",
+    "descricao": "Aplicativo para ouvir músicas e podcasts."
   },
   {
     "nome": "AIMP",
-    "categoria": "Multimídia"
+    "categoria": "Multimídia",
+    "descricao": "Player de música leve com recursos avançados."
   },
   {
     "nome": "WhatsApp Desktop",
-    "categoria": "Comunicação"
+    "categoria": "Comunicação",
+    "descricao": "Aplicativo oficial de mensagens no computador."
   },
   {
     "nome": "Telegram",
-    "categoria": "Comunicação"
+    "categoria": "Comunicação",
+    "descricao": "Mensageiro rápido com sincronização em nuvem."
   },
   {
     "nome": "Discord",
-    "categoria": "Comunicação"
+    "categoria": "Comunicação",
+    "descricao": "Comunicação por voz, vídeo e texto."
   },
   {
     "nome": "Zoom",
-    "categoria": "Comunicação"
+    "categoria": "Comunicação",
+    "descricao": "Aplicativo para reuniões e chamadas online."
   },
   {
     "nome": "Microsoft Teams",
-    "categoria": "Comunicação"
-  },
-  {
-    "nome": "Skype",
-    "categoria": "Comunicação"
+    "categoria": "Comunicação",
+    "descricao": "Ferramenta corporativa para comunicação e reuniões."
   },
   {
     "nome": "Microsoft Office",
-    "categoria": "Escritório"
+    "categoria": "Escritório",
+    "descricao": "Pacote de aplicativos para documentos, planilhas e apresentações."
   },
   {
     "nome": "LibreOffice",
-    "categoria": "Escritório"
+    "categoria": "Escritório",
+    "descricao": "Alternativa gratuita ao Microsoft Office."
   },
   {
     "nome": "WPS Office",
-    "categoria": "Escritório"
-  },
-  {
-    "nome": "OnlyOffice",
-    "categoria": "Escritório"
+    "categoria": "Escritório",
+    "descricao": "Pacote de escritório leve compatível com documentos Office."
   },
   {
     "nome": "Adobe Acrobat Reader",
-    "categoria": "PDF"
+    "categoria": "PDF",
+    "descricao": "Leitor de arquivos PDF mais utilizado."
   },
   {
     "nome": "Foxit PDF Reader",
-    "categoria": "PDF"
-  },
-  {
-    "nome": "Sumatra PDF",
-    "categoria": "PDF"
+    "categoria": "PDF",
+    "descricao": "Leitor PDF leve com recursos extras."
   },
   {
     "nome": "Java",
-    "categoria": "Sistema"
+    "categoria": "Sistema",
+    "descricao": "Ambiente necessário para diversos programas e sistemas."
   },
   {
     "nome": "Visual C++ Redistributable",
-    "categoria": "Sistema"
+    "categoria": "Sistema",
+    "descricao": "Bibliotecas necessárias para muitos aplicativos Windows."
   },
   {
     "nome": "DirectX",
-    "categoria": "Sistema"
-  },
-  {
-    "nome": ".NET Framework",
-    "categoria": "Sistema"
-  },
-  {
-    "nome": "OpenAL",
-    "categoria": "Sistema"
+    "categoria": "Sistema",
+    "descricao": "Componentes gráficos usados principalmente por jogos."
   },
   {
     "nome": "CPU-Z",
-    "categoria": "Diagnóstico"
+    "categoria": "Diagnóstico",
+    "descricao": "Exibe informações detalhadas do processador e memória."
   },
   {
     "nome": "GPU-Z",
-    "categoria": "Diagnóstico"
+    "categoria": "Diagnóstico",
+    "descricao": "Mostra informações da placa de vídeo."
   },
   {
     "nome": "CrystalDiskInfo",
-    "categoria": "Diagnóstico"
+    "categoria": "Diagnóstico",
+    "descricao": "Monitora saúde e temperatura do HD e SSD."
   },
   {
     "nome": "HWMonitor",
-    "categoria": "Diagnóstico"
-  },
-  {
-    "nome": "Speccy",
-    "categoria": "Diagnóstico"
+    "categoria": "Diagnóstico",
+    "descricao": "Monitora temperaturas e voltagens do computador."
   },
   {
     "nome": "Steam",
-    "categoria": "Games"
+    "categoria": "Games",
+    "descricao": "Plataforma para compra e instalação de jogos."
   },
   {
     "nome": "Epic Games Launcher",
-    "categoria": "Games"
-  },
-  {
-    "nome": "Battle.net",
-    "categoria": "Games"
-  },
-  {
-    "nome": "Riot Client",
-    "categoria": "Games"
-  },
-  {
-    "nome": "Ubisoft Connect",
-    "categoria": "Games"
-  },
-  {
-    "nome": "EA App",
-    "categoria": "Games"
+    "categoria": "Games",
+    "descricao": "Launcher de jogos da Epic Games."
   },
   {
     "nome": "OBS Studio",
-    "categoria": "Gravação"
-  },
-  {
-    "nome": "Streamlabs",
-    "categoria": "Gravação"
-  },
-  {
-    "nome": "Bandicam",
-    "categoria": "Gravação"
+    "categoria": "Gravação",
+    "descricao": "Programa para gravação e transmissão de tela."
   },
   {
     "nome": "Canva",
-    "categoria": "Design"
+    "categoria": "Design",
+    "descricao": "Ferramenta online de criação de artes."
   },
   {
     "nome": "GIMP",
-    "categoria": "Design"
-  },
-  {
-    "nome": "Paint.NET",
-    "categoria": "Design"
-  },
-  {
-    "nome": "Krita",
-    "categoria": "Design"
-  },
-  {
-    "nome": "Inkscape",
-    "categoria": "Design"
+    "categoria": "Design",
+    "descricao": "Editor de imagens gratuito semelhante ao Photoshop."
   },
   {
     "nome": "Google Drive",
-    "categoria": "Nuvem"
+    "categoria": "Nuvem",
+    "descricao": "Sincronização de arquivos com armazenamento em nuvem."
   },
   {
     "nome": "OneDrive",
-    "categoria": "Nuvem"
+    "categoria": "Nuvem",
+    "descricao": "Serviço de armazenamento integrado ao Windows."
   },
   {
     "nome": "Dropbox",
-    "categoria": "Nuvem"
-  },
-  {
-    "nome": "MEGA",
-    "categoria": "Nuvem"
+    "categoria": "Nuvem",
+    "descricao": "Sincronização e compartilhamento de arquivos."
   },
   {
     "nome": "AnyDesk",
-    "categoria": "Acesso Remoto"
+    "categoria": "Acesso Remoto",
+    "descricao": "Controle remoto de computadores."
   },
   {
     "nome": "TeamViewer",
-    "categoria": "Acesso Remoto"
+    "categoria": "Acesso Remoto",
+    "descricao": "Ferramenta popular de suporte remoto."
   },
   {
     "nome": "RustDesk",
-    "categoria": "Acesso Remoto"
+    "categoria": "Acesso Remoto",
+    "descricao": "Alternativa aberta para acesso remoto."
   },
   {
     "nome": "Malwarebytes",
-    "categoria": "Segurança"
-  },
-  {
-    "nome": "Avast Free Antivirus",
-    "categoria": "Segurança"
-  },
-  {
-    "nome": "Bitdefender",
-    "categoria": "Segurança"
-  },
-  {
-    "nome": "Kaspersky",
-    "categoria": "Segurança"
+    "categoria": "Segurança",
+    "descricao": "Ferramenta para detectar malwares."
   },
   {
     "nome": "CCleaner",
-    "categoria": "Manutenção"
-  },
-  {
-    "nome": "BleachBit",
-    "categoria": "Manutenção"
-  },
-  {
-    "nome": "Glary Utilities",
-    "categoria": "Manutenção"
+    "categoria": "Manutenção",
+    "descricao": "Limpeza de arquivos temporários do computador."
   },
   {
     "nome": "Notepad++",
-    "categoria": "Programação"
+    "categoria": "Programação",
+    "descricao": "Editor de código leve para programadores."
   },
   {
     "nome": "Visual Studio Code",
-    "categoria": "Programação"
+    "categoria": "Programação",
+    "descricao": "Editor profissional para desenvolvimento."
   },
   {
     "nome": "Git",
-    "categoria": "Programação"
+    "categoria": "Programação",
+    "descricao": "Sistema de controle de versões."
   },
   {
     "nome": "Python",
-    "categoria": "Programação"
+    "categoria": "Programação",
+    "descricao": "Linguagem de programação muito utilizada."
   },
   {
     "nome": "Node.js",
-    "categoria": "Programação"
+    "categoria": "Programação",
+    "descricao": "Ambiente para executar JavaScript fora do navegador."
   },
   {
     "nome": "Blender",
-    "categoria": "3D"
-  },
-  {
-    "nome": "Unity Hub",
-    "categoria": "Desenvolvimento"
-  },
-  {
-    "nome": "Unreal Engine Launcher",
-    "categoria": "Desenvolvimento"
-  },
-  {
-    "nome": "qBittorrent",
-    "categoria": "Downloads"
-  },
-  {
-    "nome": "Internet Download Manager",
-    "categoria": "Downloads"
-  },
-  {
-    "nome": "NVIDIA GeForce Experience",
-    "categoria": "Drivers"
-  },
-  {
-    "nome": "AMD Software Adrenalin",
-    "categoria": "Drivers"
-  },
-  {
-    "nome": "Intel Driver Assistant",
-    "categoria": "Drivers"
-  },
-  {
-    "nome": "Logitech G Hub",
-    "categoria": "Periféricos"
-  },
-  {
-    "nome": "Razer Synapse",
-    "categoria": "Periféricos"
-  },
-  {
-    "nome": "Corsair iCUE",
-    "categoria": "Periféricos"
-  },
-  {
-    "nome": "OpenVPN",
-    "categoria": "Rede"
-  },
-  {
-    "nome": "NordVPN",
-    "categoria": "Rede"
-  },
-  {
-    "nome": "WireGuard",
-    "categoria": "Rede"
+    "categoria": "3D",
+    "descricao": "Criação de modelos 3D, animações e renderizações."
   },
   {
     "nome": "VirtualBox",
-    "categoria": "Virtualização"
-  },
-  {
-    "nome": "VMware Workstation Player",
-    "categoria": "Virtualização"
-  },
-  {
-    "nome": "HandBrake",
-    "categoria": "Vídeo"
-  },
-  {
-    "nome": "Shotcut",
-    "categoria": "Vídeo"
-  },
-  {
-    "nome": "DaVinci Resolve",
-    "categoria": "Vídeo"
-  },
-  {
-    "nome": "Adobe Photoshop",
-    "categoria": "Design"
-  },
-  {
-    "nome": "Adobe Premiere Pro",
-    "categoria": "Vídeo"
-  },
-  {
-    "nome": "Adobe Illustrator",
-    "categoria": "Design"
-  },
-  {
-    "nome": "Figma",
-    "categoria": "Design"
-  },
-  {
-    "nome": "AutoCAD",
-    "categoria": "Engenharia"
-  },
-  {
-    "nome": "HP Smart",
-    "categoria": "Impressoras"
-  },
-  {
-    "nome": "Epson Printer Driver",
-    "categoria": "Impressoras"
-  },
-  {
-    "nome": "Canon Print",
-    "categoria": "Impressoras"
-  },
-  {
-    "nome": "TeraCopy",
-    "categoria": "Arquivos"
-  },
-  {
-    "nome": "Everything Search",
-    "categoria": "Arquivos"
-  },
-  {
-    "nome": "WinDirStat",
-    "categoria": "Arquivos"
-  },
-  {
-    "nome": "ShareX",
-    "categoria": "Captura"
-  },
-  {
-    "nome": "Greenshot",
-    "categoria": "Captura"
-  },
-  {
-    "nome": "Lightshot",
-    "categoria": "Captura"
-  },
-  {
-    "nome": "Google Earth",
-    "categoria": "Utilidades"
-  },
-  {
-    "nome": "TeamSpeak",
-    "categoria": "Comunicação"
-  },
-  {
-    "nome": "XAMPP",
-    "categoria": "Servidor"
-  },
-  {
-    "nome": "Postman",
-    "categoria": "Programação"
-  },
-  {
-    "nome": "MySQL Workbench",
-    "categoria": "Banco de Dados"
-  },
-  {
-    "nome": "DBeaver",
-    "categoria": "Banco de Dados"
-  },
-  {
-    "nome": "Docker Desktop",
-    "categoria": "Desenvolvimento"
-  },
-  {
-    "nome": "Android Studio",
-    "categoria": "Desenvolvimento"
-  },
-  {
-    "nome": "Eclipse",
-    "categoria": "Programação"
-  },
-  {
-    "nome": "Audacity",
-    "categoria": "Áudio"
-  },
-  {
-    "nome": "FL Studio",
-    "categoria": "Áudio"
-  },
-  {
-    "nome": "Reaper",
-    "categoria": "Áudio"
-  },
-  {
-    "nome": "Nero Burning ROM",
-    "categoria": "Gravação"
-  },
-  {
-    "nome": "ImgBurn",
-    "categoria": "Gravação"
+    "categoria": "Virtualização",
+    "descricao": "Criação de máquinas virtuais."
   },
   {
     "nome": "Rufus",
-    "categoria": "Pendrive Bootável"
+    "categoria": "Pendrive Bootável",
+    "descricao": "Cria pendrives de instalação do Windows."
+  },
+  {
+    "nome": "Krita",
+    "categoria": "Design",
+    "descricao": "Aplicativo de design recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Inkscape",
+    "categoria": "Design",
+    "descricao": "Aplicativo de design recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Paint.NET",
+    "categoria": "Design",
+    "descricao": "Aplicativo de design recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "MEGA",
+    "categoria": "Nuvem",
+    "descricao": "Aplicativo de nuvem recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Bitdefender",
+    "categoria": "Segurança",
+    "descricao": "Aplicativo de segurança recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Kaspersky",
+    "categoria": "Segurança",
+    "descricao": "Aplicativo de segurança recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "BleachBit",
+    "categoria": "Manutenção",
+    "descricao": "Aplicativo de manutenção recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Glary Utilities",
+    "categoria": "Manutenção",
+    "descricao": "Aplicativo de manutenção recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Unity Hub",
+    "categoria": "Desenvolvimento",
+    "descricao": "Aplicativo de desenvolvimento recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Unreal Engine Launcher",
+    "categoria": "Desenvolvimento",
+    "descricao": "Aplicativo de desenvolvimento recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "qBittorrent",
+    "categoria": "Downloads",
+    "descricao": "Aplicativo de downloads recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Internet Download Manager",
+    "categoria": "Downloads",
+    "descricao": "Aplicativo de downloads recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "NVIDIA GeForce Experience",
+    "categoria": "Drivers",
+    "descricao": "Aplicativo de drivers recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "AMD Software Adrenalin",
+    "categoria": "Drivers",
+    "descricao": "Aplicativo de drivers recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Intel Driver Assistant",
+    "categoria": "Drivers",
+    "descricao": "Aplicativo de drivers recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Logitech G Hub",
+    "categoria": "Periféricos",
+    "descricao": "Aplicativo de periféricos recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Razer Synapse",
+    "categoria": "Periféricos",
+    "descricao": "Aplicativo de periféricos recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Corsair iCUE",
+    "categoria": "Periféricos",
+    "descricao": "Aplicativo de periféricos recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "OpenVPN",
+    "categoria": "Rede",
+    "descricao": "Aplicativo de rede recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "NordVPN",
+    "categoria": "Rede",
+    "descricao": "Aplicativo de rede recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "WireGuard",
+    "categoria": "Rede",
+    "descricao": "Aplicativo de rede recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "VMware Workstation Player",
+    "categoria": "Virtualização",
+    "descricao": "Aplicativo de virtualização recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "HandBrake",
+    "categoria": "Vídeo",
+    "descricao": "Aplicativo de vídeo recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Shotcut",
+    "categoria": "Vídeo",
+    "descricao": "Aplicativo de vídeo recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "DaVinci Resolve",
+    "categoria": "Vídeo",
+    "descricao": "Aplicativo de vídeo recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Adobe Photoshop",
+    "categoria": "Design",
+    "descricao": "Aplicativo de design recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Adobe Premiere Pro",
+    "categoria": "Vídeo",
+    "descricao": "Aplicativo de vídeo recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Adobe Illustrator",
+    "categoria": "Design",
+    "descricao": "Aplicativo de design recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Figma",
+    "categoria": "Design",
+    "descricao": "Aplicativo de design recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "AutoCAD",
+    "categoria": "Engenharia",
+    "descricao": "Aplicativo de engenharia recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "HP Smart",
+    "categoria": "Impressoras",
+    "descricao": "Aplicativo de impressoras recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Epson Printer Driver",
+    "categoria": "Impressoras",
+    "descricao": "Aplicativo de impressoras recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Canon Print",
+    "categoria": "Impressoras",
+    "descricao": "Aplicativo de impressoras recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "TeraCopy",
+    "categoria": "Arquivos",
+    "descricao": "Aplicativo de arquivos recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Everything Search",
+    "categoria": "Arquivos",
+    "descricao": "Aplicativo de arquivos recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "WinDirStat",
+    "categoria": "Arquivos",
+    "descricao": "Aplicativo de arquivos recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "ShareX",
+    "categoria": "Captura",
+    "descricao": "Aplicativo de captura recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Greenshot",
+    "categoria": "Captura",
+    "descricao": "Aplicativo de captura recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Lightshot",
+    "categoria": "Captura",
+    "descricao": "Aplicativo de captura recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Google Earth",
+    "categoria": "Utilidades",
+    "descricao": "Aplicativo de utilidades recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "TeamSpeak",
+    "categoria": "Comunicação",
+    "descricao": "Aplicativo de comunicação recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "XAMPP",
+    "categoria": "Servidor",
+    "descricao": "Aplicativo de servidor recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Postman",
+    "categoria": "Programação",
+    "descricao": "Aplicativo de programação recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "MySQL Workbench",
+    "categoria": "Banco de Dados",
+    "descricao": "Aplicativo de banco de dados recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "DBeaver",
+    "categoria": "Banco de Dados",
+    "descricao": "Aplicativo de banco de dados recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Docker Desktop",
+    "categoria": "Desenvolvimento",
+    "descricao": "Aplicativo de desenvolvimento recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Android Studio",
+    "categoria": "Desenvolvimento",
+    "descricao": "Aplicativo de desenvolvimento recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Eclipse",
+    "categoria": "Programação",
+    "descricao": "Aplicativo de programação recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Audacity",
+    "categoria": "Áudio",
+    "descricao": "Aplicativo de áudio recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "FL Studio",
+    "categoria": "Áudio",
+    "descricao": "Aplicativo de áudio recomendado para uso após formatação do Windows."
   },
   {
     "nome": "Ventoy",
-    "categoria": "Pendrive Bootável"
+    "categoria": "Pendrive Bootável",
+    "descricao": "Aplicativo de pendrive bootável recomendado para uso após formatação do Windows."
   },
   {
     "nome": "CrystalDiskMark",
-    "categoria": "Diagnóstico"
+    "categoria": "Diagnóstico",
+    "descricao": "Aplicativo de diagnóstico recomendado para uso após formatação do Windows."
   },
   {
     "nome": "MemTest86",
-    "categoria": "Diagnóstico"
+    "categoria": "Diagnóstico",
+    "descricao": "Aplicativo de diagnóstico recomendado para uso após formatação do Windows."
   },
   {
     "nome": "Autoruns",
-    "categoria": "Sistema"
+    "categoria": "Sistema",
+    "descricao": "Aplicativo de sistema recomendado para uso após formatação do Windows."
   },
   {
     "nome": "Process Explorer",
-    "categoria": "Sistema"
+    "categoria": "Sistema",
+    "descricao": "Aplicativo de sistema recomendado para uso após formatação do Windows."
   },
   {
     "nome": "Sysinternals Suite",
-    "categoria": "Sistema"
+    "categoria": "Sistema",
+    "descricao": "Aplicativo de sistema recomendado para uso após formatação do Windows."
   },
   {
     "nome": "AdwCleaner",
-    "categoria": "Segurança"
-  },
-  {
-    "nome": "Malwarebytes Browser Guard",
-    "categoria": "Segurança"
+    "categoria": "Segurança",
+    "descricao": "Aplicativo de segurança recomendado para uso após formatação do Windows."
   },
   {
     "nome": "Chrome Beta",
-    "categoria": "Navegador"
+    "categoria": "Navegador",
+    "descricao": "Aplicativo de navegador recomendado para uso após formatação do Windows."
   },
   {
     "nome": "Firefox Developer Edition",
-    "categoria": "Navegador"
+    "categoria": "Navegador",
+    "descricao": "Aplicativo de navegador recomendado para uso após formatação do Windows."
   },
   {
     "nome": "Telegram Portable",
-    "categoria": "Comunicação"
-  },
-  {
-    "nome": "7-Zip ZS",
-    "categoria": "Compactador"
-  },
-  {
-    "nome": "Virtual CloneDrive",
-    "categoria": "Discos"
-  },
-  {
-    "nome": "PowerToys",
-    "categoria": "Sistema"
-  },
-  {
-    "nome": "Everything Portable",
-    "categoria": "Arquivos"
-  },
-  {
-    "nome": "HWiNFO",
-    "categoria": "Diagnóstico"
-  },
-  {
-    "nome": "OCCT",
-    "categoria": "Diagnóstico"
-  },
-  {
-    "nome": "AIDA64",
-    "categoria": "Diagnóstico"
-  },
-  {
-    "nome": "FileZilla",
-    "categoria": "FTP"
-  },
-  {
-    "nome": "Cyberduck",
-    "categoria": "FTP"
-  },
-  {
-    "nome": "PuTTY",
-    "categoria": "Rede"
-  },
-  {
-    "nome": "WinSCP",
-    "categoria": "Rede"
-  },
-  {
-    "nome": "MobaXterm",
-    "categoria": "Rede"
-  },
-  {
-    "nome": "Notion",
-    "categoria": "Produtividade"
-  },
-  {
-    "nome": "Trello",
-    "categoria": "Produtividade"
-  },
-  {
-    "nome": "Evernote",
-    "categoria": "Produtividade"
-  },
-  {
-    "nome": "Viber",
-    "categoria": "Comunicação"
+    "categoria": "Comunicação",
+    "descricao": "Aplicativo de comunicação recomendado para uso após formatação do Windows."
   },
   {
     "nome": "Signal",
-    "categoria": "Comunicação"
+    "categoria": "Comunicação",
+    "descricao": "Aplicativo de comunicação recomendado para uso após formatação do Windows."
   },
   {
-    "nome": "LINE",
-    "categoria": "Comunicação"
+    "nome": "Notion",
+    "categoria": "Produtividade",
+    "descricao": "Aplicativo de produtividade recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Trello",
+    "categoria": "Produtividade",
+    "descricao": "Aplicativo de produtividade recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Evernote",
+    "categoria": "Produtividade",
+    "descricao": "Aplicativo de produtividade recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "FileZilla",
+    "categoria": "FTP",
+    "descricao": "Aplicativo de ftp recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "PuTTY",
+    "categoria": "Rede",
+    "descricao": "Aplicativo de rede recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "WinSCP",
+    "categoria": "Rede",
+    "descricao": "Aplicativo de rede recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "PowerToys",
+    "categoria": "Sistema",
+    "descricao": "Aplicativo de sistema recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "HWiNFO",
+    "categoria": "Diagnóstico",
+    "descricao": "Aplicativo de diagnóstico recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "AIDA64",
+    "categoria": "Diagnóstico",
+    "descricao": "Aplicativo de diagnóstico recomendado para uso após formatação do Windows."
   },
   {
     "nome": "MPC-HC",
-    "categoria": "Vídeo"
+    "categoria": "Vídeo",
+    "descricao": "Aplicativo de vídeo recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Nero Burning ROM",
+    "categoria": "Gravação",
+    "descricao": "Aplicativo de gravação recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "ImgBurn",
+    "categoria": "Gravação",
+    "descricao": "Aplicativo de gravação recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Virtual CloneDrive",
+    "categoria": "Discos",
+    "descricao": "Aplicativo de discos recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "SharePoint",
+    "categoria": "Produtividade",
+    "descricao": "Aplicativo de produtividade recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Slack",
+    "categoria": "Comunicação",
+    "descricao": "Aplicativo de comunicação recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Viber",
+    "categoria": "Comunicação",
+    "descricao": "Aplicativo de comunicação recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "LINE",
+    "categoria": "Comunicação",
+    "descricao": "Aplicativo de comunicação recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Reaper",
+    "categoria": "Áudio",
+    "descricao": "Aplicativo de áudio recomendado para uso após formatação do Windows."
+  },
+  {
+    "nome": "Docker Compose",
+    "categoria": "Desenvolvimento",
+    "descricao": "Aplicativo de desenvolvimento recomendado para uso após formatação do Windows."
   }
 ]
