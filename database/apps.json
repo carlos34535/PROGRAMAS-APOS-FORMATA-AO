@@ -112,6 +112,210 @@
 "nome":"Sumatra PDF",
 "categoria":"PDF"
 },
+{
+"nome":"Java",
+"categoria":"Sistema"
+},
+{
+"nome":"Visual C++ Redistributable",
+"categoria":"Sistema"
+},
+{
+"nome":"DirectX",
+"categoria":"Sistema"
+},
+{
+"nome":"NET Framework",
+"categoria":"Sistema"
+},
+{
+"nome":"OpenAL",
+"categoria":"Sistema"
+},
+
+{
+"nome":"CPU-Z",
+"categoria":"Diagnóstico"
+},
+{
+"nome":"GPU-Z",
+"categoria":"Diagnóstico"
+},
+{
+"nome":"CrystalDiskInfo",
+"categoria":"Diagnóstico"
+},
+{
+"nome":"HWMonitor",
+"categoria":"Diagnóstico"
+},
+{
+"nome":"Speccy",
+"categoria":"Diagnóstico"
+},
+
+{
+"nome":"Steam",
+"categoria":"Games"
+},
+{
+"nome":"Epic Games Launcher",
+"categoria":"Games"
+},
+{
+"nome":"Battle.net",
+"categoria":"Games"
+},
+{
+"nome":"Riot Client",
+"categoria":"Games"
+},
+{
+"nome":"Ubisoft Connect",
+"categoria":"Games"
+},
+{
+"nome":"EA App",
+"categoria":"Games"
+},
+
+{
+"nome":"OBS Studio",
+"categoria":"Gravação"
+},
+{
+"nome":"Streamlabs",
+"categoria":"Gravação"
+},
+{
+"nome":"Bandicam",
+"categoria":"Gravação"
+},
+
+{
+"nome":"Canva",
+"categoria":"Design"
+},
+{
+"nome":"GIMP",
+"categoria":"Design"
+}
+
+
+
+  
+"nome":"Google Chrome",
+"categoria":"Navegador"
+},
+{
+"nome":"Microsoft Edge",
+"categoria":"Navegador"
+},
+{
+"nome":"Mozilla Firefox",
+"categoria":"Navegador"
+},
+{
+"nome":"Opera GX",
+"categoria":"Navegador Gamer"
+},
+{
+"nome":"Brave Browser",
+"categoria":"Navegador"
+},
+{
+"nome":"Vivaldi Browser",
+"categoria":"Navegador"
+},
+
+{
+"nome":"7-Zip",
+"categoria":"Compactador"
+},
+{
+"nome":"WinRAR",
+"categoria":"Compactador"
+},
+{
+"nome":"PeaZip",
+"categoria":"Compactador"
+},
+
+{
+"nome":"VLC Player",
+"categoria":"Multimídia"
+},
+{
+"nome":"Spotify",
+"categoria":"Multimídia"
+},
+{
+"nome":"iTunes",
+"categoria":"Multimídia"
+},
+{
+"nome":"AIMP",
+"categoria":"Multimídia"
+},
+{
+"nome":"PotPlayer",
+"categoria":"Multimídia"
+},
+
+{
+"nome":"WhatsApp Desktop",
+"categoria":"Comunicação"
+},
+{
+"nome":"Telegram",
+"categoria":"Comunicação"
+},
+{
+"nome":"Discord",
+"categoria":"Comunicação"
+},
+{
+"nome":"Zoom",
+"categoria":"Comunicação"
+},
+{
+"nome":"Microsoft Teams",
+"categoria":"Comunicação"
+},
+{
+"nome":"Skype",
+"categoria":"Comunicação"
+},
+
+{
+"nome":"Microsoft Office",
+"categoria":"Escritório"
+},
+{
+"nome":"LibreOffice",
+"categoria":"Escritório"
+},
+{
+"nome":"WPS Office",
+"categoria":"Escritório"
+},
+{
+"nome":"OnlyOffice",
+"categoria":"Escritório"
+},
+
+{
+"nome":"Adobe Acrobat Reader",
+"categoria":"PDF"
+},
+{
+"nome":"Foxit PDF Reader",
+"categoria":"PDF"
+},
+{
+"nome":"Sumatra PDF",
+"categoria":"PDF"
+},
 
 {
 "nome":"Java",
