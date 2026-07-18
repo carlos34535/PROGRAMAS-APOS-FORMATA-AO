@@ -1,51 +1,38 @@
-let windowsEscolhido = "";
-let arquiteturaEscolhida = "";
-
-
-function selecionarWindows(windows){
-
-    windowsEscolhido = windows;
-
-    document.getElementById("telaWindows").style.display = "none";
-
-    document.getElementById("telaArquitetura").style.display = "block";
-
-}
-
-
-
-function selecionarArquitetura(tipo){
-
-    arquiteturaEscolhida = tipo;
-
-    document.getElementById("telaArquitetura").style.display = "none";
-
-    document.getElementById("resultado").style.display = "block";
-
-
-    document.getElementById("config").innerHTML =
-
-    `
-    Windows:
-    <b>${windowsEscolhido}</b>
-
-    <br><br>
-
-    Arquitetura:
-    <b>${arquiteturaEscolhida}</b>
-
-    <br><br>
-
-    Sistema funcionando.
-
-    `;
-
-}
-
-
-
-function gerarPacote(){
-
-alert("Teste funcionando!");
-
-}
+[
+    {
+        "nome": "Google Chrome",
+        "categoria": "Navegador",
+        "x86": true,
+        "x64": true
+    },
+    {
+        "nome": "7-Zip",
+        "categoria": "Compactador",
+        "x86": true,
+        "x64": true
+    },
+    {
+        "nome": "VLC Player",
+        "categoria": "Vídeo",
+        "x86": true,
+        "x64": true
+    },
+    {
+        "nome": "Notepad++",
+        "categoria": "Editor",
+        "x86": true,
+        "x64": true
+    },
+    {
+        "nome": "Visual C++ Redistributable",
+        "categoria": "Sistema",
+        "x86": true,
+        "x64": true
+    },
+    {
+        "nome": "Java",
+        "categoria": "Sistema",
+        "x86": true,
+        "x64": true
+    }
+]
