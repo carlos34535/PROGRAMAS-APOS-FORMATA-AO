@@ -1,29 +1,184 @@
-/* ================================
-   BARRA DE PESQUISA
-================================ */
+*{
+
+box-sizing:border-box;
+
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+body{
+
+margin:0;
+
+min-height:100vh;
+
+background:#090909;
+
+color:white;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+
+
+.container{
+
+width:420px;
+
+background:#111;
+
+padding:35px;
+
+border-radius:20px;
+
+box-shadow:0 0 40px rgba(0,0,0,.8);
+
+text-align:center;
+
+}
+
+
+
+.logo{
+
+font-size:60px;
+
+margin-bottom:10px;
+
+}
+
+
+
+h1{
+
+font-size:32px;
+
+margin:10px 0;
+
+}
+
+
+
+p{
+
+color:#aaa;
+
+line-height:1.5;
+
+}
+
+
+
+h2{
+
+margin-top:30px;
+
+font-size:22px;
+
+}
+
+
+
+
+button{
+
+width:100%;
+
+padding:15px;
+
+margin:8px 0;
+
+border:none;
+
+border-radius:10px;
+
+background:#087cff;
+
+color:white;
+
+font-size:17px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+
+
+button:hover{
+
+background:#005dcc;
+
+transform:scale(1.03);
+
+}
+
+
+
+.voltar{
+
+background:#333;
+
+}
+
+
+
+.voltar:hover{
+
+background:#555;
+
+}
+
+
+
+
+#config{
+
+background:#1c1c1c;
+
+padding:15px;
+
+border-radius:10px;
+
+margin:15px 0;
+
+}
+
 
 
 #buscaApp{
 
-    width:100%;
 
-    padding:15px 18px;
+width:100%;
 
-    margin:20px 0;
 
-    border-radius:12px;
+padding:15px;
 
-    border:1px solid #333;
 
-    background:#1c1c1c;
+margin:20px 0;
 
-    color:white;
 
-    font-size:16px;
+border-radius:12px;
 
-    outline:none;
 
-    transition:0.3s;
+border:1px solid #333;
+
+
+background:#1c1c1c;
+
+
+color:white;
+
+
+font-size:16px;
+
 
 }
 
@@ -31,55 +186,24 @@
 
 #buscaApp::placeholder{
 
-    color:#999;
+color:#999;
 
 }
 
 
-
-#buscaApp:focus{
-
-    border-color:#0078ff;
-
-    box-shadow:0 0 15px rgba(0,120,255,0.5);
-
-}
-
-
-
-
-/* ================================
-   LISTA DE PROGRAMAS
-================================ */
 
 
 .item{
 
-    background:#1a1a1a;
+background:#1b1b1b;
 
-    padding:15px;
+padding:15px;
 
-    border-radius:12px;
+border-radius:12px;
 
-    margin-bottom:10px;
+margin-bottom:10px;
 
-    display:flex;
-
-    align-items:center;
-
-    gap:12px;
-
-    transition:0.3s;
-
-}
-
-
-
-.item:hover{
-
-    background:#242424;
-
-    transform:scale(1.02);
+text-align:left;
 
 }
 
@@ -87,21 +211,9 @@
 
 .item input{
 
-    width:20px;
+width:18px;
 
-    height:20px;
-
-    cursor:pointer;
-
-}
-
-
-
-.item label{
-
-    cursor:pointer;
-
-    text-align:left;
+height:18px;
 
 }
 
@@ -109,6 +221,6 @@
 
 .item small{
 
-    color:#999;
+color:#999;
 
 }
