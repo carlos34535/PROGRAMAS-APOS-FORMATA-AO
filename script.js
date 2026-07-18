@@ -67,7 +67,7 @@ async function carregarProgramas(){
 try{
 
 
-let resposta = await fetch("./database/apps.json");
+let resposta = await fetch("/PROGRAMAS-APOS-FORMATA-AO/database/apps.json");
 
 
 
