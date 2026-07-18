@@ -1,0 +1,43 @@
+[
+    {
+        "nome": "Google Chrome",
+        "categoria": "Navegador",
+        "x86": true,
+        "x64": true
+    },
+
+    {
+        "nome": "7-Zip",
+        "categoria": "Compactador",
+        "x86": true,
+        "x64": true
+    },
+
+    {
+        "nome": "VLC Player",
+        "categoria": "Vídeo",
+        "x86": true,
+        "x64": true
+    },
+
+    {
+        "nome": "Notepad++",
+        "categoria": "Editor",
+        "x86": true,
+        "x64": true
+    },
+
+    {
+        "nome": "Visual C++ Redistributable",
+        "categoria": "Sistema",
+        "x86": true,
+        "x64": true
+    },
+
+    {
+        "nome": "Java",
+        "categoria": "Sistema",
+        "x86": true,
+        "x64": true
+    }
+]
